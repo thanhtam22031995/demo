@@ -1,0 +1,6 @@
+{
+    "app.title": "React App with FormatJS/Intl",
+    "app.language": "Language",
+    "app.welcome": "Welcome {name} to our app!",
+    "app.random":"Random"
+  }

@@ -1,0 +1,53 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@formatjs/cli": "^6.2.9",
+    "@formatjs/intl": "^2.10.1",
+    "@formatjs/intl-displaynames": "^6.6.6",
+    "@formatjs/intl-listformat": "^7.5.5",
+    "@formatjs/intl-localematcher": "^0.5.4",
+    "@formatjs/intl-relativetimeformat": "^11.2.12",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "intl": "^1.2.5",
+    "intl-messageformat": "^10.5.11",
+    "npm": "^10.5.2",
+    "polyfill-library": "^4.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.6.5",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@formatjs/ts-transformer": "^3.13.12",
+    "babel-plugin-formatjs": "^10.5.14"
+  }
+}
